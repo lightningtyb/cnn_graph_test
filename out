@@ -1,0 +1,353 @@
+D:\Unity\python\python.exe D:/Unity/pycharm/cnn_graph_test/20news.py
+N = 1655 documents, C = 3 classes
+class Text20News ---
+dataset.target=[2 0 0 ..., 2 0 2]
+class Text20News ---
+dataset.target_name=['alt.atheism', 'comp.graphics', 'comp.os.ms-windows.misc']
+document 1: label 0 --> alt.atheism, 112 words
+document 1: label 0 --> alt.atheism, 113 words
+  1.00 "absurd" (67)
+  1.00 "act" (189)
+  2.00 "assert" (1238)
+  1.00 "assumption" (1265)
+  1.00 "base" (1684)
+  1.00 "believe" (1841)
+  1.00 "bit" (2073)
+  1.00 "candidate" (2801)
+  1.00 "complain" (3795)
+  1.00 "condition" (3910)
+  1.00 "contrary" (4090)
+  1.00 "day" (4780)
+  1.00 "deprived" (5083)
+  1.00 "exist" (7021)
+  3.00 "freedom" (8051)
+  1.00 "guess" (9048)
+  1.00 "ll" (13268)
+  1.00 "morality" (15097)
+  1.00 "necessary" (15881)
+  3.00 "objective" (16548)
+  1.00 "objectively" (16549)
+  1.00 "raining" (19457)
+  1.00 "rainy" (19458)
+  1.00 "say" (21025)
+  1.00 "utterly" (24802)
+  2.00 "valuable" (24906)
+  1.00 "value" (24907)
+  1.00 "values" (24909)
+  1.00 "volition" (25351)
+  1.00 "want" (25614)
+  1.00 "wild" (25867)
+  1.00 "world" (26101)
+i ll take a wild guess and say freedom is objectively valuable i base this on the assumption that if everyone in the world were deprived utterly of their freedom so that their every act was contrary to their volition almost all would want to complain therefore i take it that to assert or believe that freedom is not very valuable when almost everyone can see that it is is every bit as absurd as to
+N = 1655 documents, M = 27663 words, sparsity=0.2181%
+    480 documents in class  0 (alt.atheism)
+    584 documents in class  1 (comp.graphics)
+    591 documents in class  2 (comp.os.ms-windows.misc)
+N = 1477 documents, M = 27663 words, sparsity=0.2426%
+shortest: 0, longest: 24042 words
+N = 1467 documents, M = 27663 words, sparsity=0.2302%
+22488 words not found in corpus
+N = 1467 documents, M = 5175 words, sparsity=0.8781%
+most frequent words
+    0: num         56546 counts
+    1: dollar       5483 counts
+    2: windows       742 counts
+    3: don           536 counts
+    4: image         531 counts
+    5: file          519 counts
+    6: cx            505 counts
+    7: use           503 counts
+    8: like          484 counts
+    9: does          480 counts
+   10: just          472 counts
+   11: know          459 counts
+   12: edu           448 counts
+   13: graphics      435 counts
+   14: files         416 counts
+   15: people        416 counts
+   16: god           412 counts
+   17: think         381 counts
+   18: program       333 counts
+   19: hz            329 counts
+N = 1467 documents, M = 1000 words, sparsity=2.6100%
+document 1: label 0 --> alt.atheism, 113 words
+  1.00 "say" (42)
+  1.00 "bit" (44)
+  1.00 "want" (53)
+  1.00 "believe" (57)
+  1.00 "ll" (75)
+  1.00 "world" (136)
+  1.00 "exist" (179)
+  1.00 "value" (282)
+  1.00 "day" (365)
+  1.00 "values" (506)
+  1.00 "morality" (539)
+  1.00 "necessary" (574)
+  3.00 "objective" (627)
+  1.00 "guess" (756)
+N = 1431 documents, M = 1000 words, sparsity=2.6674%
+    404 documents in class  0 (alt.atheism)
+    517 documents in class  1 (comp.graphics)
+    510 documents in class  2 (comp.os.ms-windows.misc)
+document 1: label 0 --> alt.atheism, 113 words
+  0.06 "say" (42)
+  0.06 "bit" (44)
+  0.06 "want" (53)
+  0.06 "believe" (57)
+  0.06 "ll" (75)
+  0.06 "world" (136)
+  0.06 "exist" (179)
+  0.06 "value" (282)
+  0.06 "day" (365)
+  0.06 "values" (506)
+  0.06 "morality" (539)
+  0.06 "necessary" (574)
+  0.19 "objective" (627)
+  0.06 "guess" (756)
+N = 1102 documents, C = 3 classes
+class Text20News ---
+dataset.target=[0 1 1 ..., 0 1 1]
+class Text20News ---
+dataset.target_name=['alt.atheism', 'comp.graphics', 'comp.os.ms-windows.misc']
+N = 1102 documents, M = 1000 words, sparsity=2.6347%
+shortest: 0, longest: 26102 words
+N = 987 documents, M = 1000 words, sparsity=2.9183%
+    273 documents in class  0 (alt.atheism)
+    358 documents in class  1 (comp.graphics)
+    356 documents in class  2 (comp.os.ms-windows.misc)
+coarsening1
+20news.py --dist=[[ 0.04132193  0.04248339  0.04347843 ...,  0.05167675  0.05222148
+   0.05241197]
+ [ 0.01550603  0.01783597  0.02063435 ...,  0.02721393  0.02764702
+   0.02793962]
+ [ 0.03767389  0.08799267  0.09430927 ...,  0.14165717  0.14241016
+   0.14477921]
+ ...,
+ [ 0.00328809  0.003492    0.00377816 ...,  0.005597    0.00560862
+   0.00569707]
+ [ 0.00217086  0.00487614  0.00571489 ...,  0.01321274  0.01324892
+   0.01396525]
+ [ 0.00303984  0.00362217  0.00386655 ...,  0.01012063  0.01025283
+   0.01141644]] ,idx=[[456 273 399 ..., 876 366 642]
+ [205 849 549 ..., 878 605 373]
+ [ 30  44   5 ..., 135  59  20]
+ ...,
+ [389 514 833 ..., 629 991 293]
+ [338 543 400 ..., 114 577 622]
+ [901 656 583 ..., 370 736 473]]
+邻接矩阵--11231 > 8000 edges
+
+
+coarsening
+
+
+def coarsen ret of func metis--graphs = [<1000x1000 sparse matrix of type '<class 'numpy.float32'>'
+	with 22462 stored elements in Compressed Sparse Row format>],parents = []
+Layer 0: M_0 = |V| = 1000 nodes (0 added),|E| = 11231 edges
+graphs = [<1000x1000 sparse matrix of type '<class 'numpy.float32'>'
+	with 22462 stored elements in Compressed Sparse Row format>],perm = None
+L=[<1000x1000 sparse matrix of type '<class 'numpy.float32'>'
+	with 23462 stored elements in Compressed Sparse Row format>]
+Execution time: 0.25s
+train_data--   (0, 0)	0.288889
+  (0, 3)	0.0222222
+  (0, 7)	0.0222222
+  (0, 8)	0.0222222
+  (0, 11)	0.0222222
+  (0, 19)	0.0444444
+  (0, 21)	0.0222222
+  (0, 23)	0.0222222
+  (0, 26)	0.0222222
+  (0, 27)	0.0222222
+  (0, 31)	0.0222222
+  (0, 44)	0.0444444
+  (0, 122)	0.0222222
+  (0, 146)	0.0444444
+  (0, 153)	0.0222222
+  (0, 155)	0.0666667
+  (0, 174)	0.0222222
+  (0, 184)	0.0222222
+  (0, 329)	0.0222222
+  (0, 353)	0.0222222
+  (0, 462)	0.0222222
+  (0, 481)	0.0222222
+  (0, 492)	0.0222222
+  (0, 651)	0.0222222
+  (0, 663)	0.0222222
+  :	:
+  (1429, 599)	0.0294118
+  (1429, 843)	0.0294118
+  (1429, 888)	0.0294118
+  (1429, 892)	0.0294118
+  (1429, 896)	0.0294118
+  (1429, 919)	0.0294118
+  (1430, 0)	0.172414
+  (1430, 2)	0.0344828
+  (1430, 9)	0.0344828
+  (1430, 20)	0.0344828
+  (1430, 23)	0.103448
+  (1430, 35)	0.0344828
+  (1430, 102)	0.0344828
+  (1430, 109)	0.0344828
+  (1430, 127)	0.0344828
+  (1430, 194)	0.0344828
+  (1430, 230)	0.0689655
+  (1430, 303)	0.0344828
+  (1430, 335)	0.0344828
+  (1430, 340)	0.0344828
+  (1430, 455)	0.0344828
+  (1430, 601)	0.0344828
+  (1430, 723)	0.0344828
+  (1430, 834)	0.137931
+  (1430, 995)	0.0344828
+test_data--   (0, 0)	0.0333333
+  (0, 12)	0.0333333
+  (0, 17)	0.0333333
+  (0, 21)	0.0333333
+  (0, 74)	0.0333333
+  (0, 104)	0.1
+  (0, 105)	0.0333333
+  (0, 126)	0.0333333
+  (0, 145)	0.0333333
+  (0, 225)	0.0666667
+  (0, 251)	0.0333333
+  (0, 268)	0.0333333
+  (0, 319)	0.0666667
+  (0, 357)	0.0333333
+  (0, 360)	0.0333333
+  (0, 367)	0.0333333
+  (0, 391)	0.0333333
+  (0, 507)	0.0333333
+  (0, 539)	0.0333333
+  (0, 614)	0.0333333
+  (0, 658)	0.0333333
+  (0, 666)	0.0333333
+  (0, 676)	0.0333333
+  (0, 756)	0.0333333
+  (0, 835)	0.0333333
+  :	:
+  (986, 17)	0.0178571
+  (986, 27)	0.0178571
+  (986, 32)	0.0357143
+  (986, 34)	0.0178571
+  (986, 35)	0.0178571
+  (986, 50)	0.0178571
+  (986, 93)	0.0178571
+  (986, 114)	0.0178571
+  (986, 139)	0.0178571
+  (986, 226)	0.0178571
+  (986, 232)	0.0357143
+  (986, 254)	0.0892857
+  (986, 268)	0.0178571
+  (986, 294)	0.0178571
+  (986, 306)	0.0178571
+  (986, 334)	0.0178571
+  (986, 437)	0.0178571
+  (986, 532)	0.0178571
+  (986, 591)	0.0178571
+  (986, 628)	0.0178571
+  (986, 690)	0.0178571
+  (986, 695)	0.0178571
+  (986, 801)	0.0714286
+  (986, 883)	0.0178571
+  (986, 956)	0.0178571
+Execution time: 0.05s
+Train accuracy:      67.85 82.81 91.61 99.37 93.92 90.57 92.24
+Test accuracy:       59.07 76.90 83.18 79.94 83.79 82.37 83.08
+Train F1 (weighted): 67.50 82.78 91.63 99.37 93.95 90.54 92.23
+Test F1 (weighted):  58.23 76.87 83.15 79.84 83.88 82.29 83.01
+Execution time:       0.25  0.02  0.00  0.16  0.00  0.08  0.05
+NN architecture
+  input: M_0 = 1000
+  layer 1: logits (softmax)
+    representation: M_1 = 3
+    weights: M_0 * M_1 = 1000 * 3 = 3000
+    biases: M_1 = 3
+2017-12-23 20:21:04.011599: I C:\tf_jenkins\home\workspace\rel-win\M\windows\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+step 400 / 1144 (epoch 27.95 / 80):
+  learning_rate = 2.50e+02, loss_average = 3.58e+00
+  validation accuracy: 82.57 (815 / 987), f1 (weighted): 82.45, loss: 1.63e+01
+  time: 2s (wall 2s)
+step 800 / 1144 (epoch 55.90 / 80):
+  learning_rate = 5.95e+01, loss_average = 1.11e+00
+  validation accuracy: 82.47 (814 / 987), f1 (weighted): 82.34, loss: 1.45e+01
+  time: 4s (wall 4s)
+step 1144 / 1144 (epoch 79.94 / 80):
+  learning_rate = 1.74e+01, loss_average = 7.29e-01
+  validation accuracy: 82.47 (814 / 987), f1 (weighted): 82.37, loss: 1.42e+01
+  time: 6s (wall 6s)
+validation accuracy: peak = 82.57, mean = 82.51
+train accuracy: 97.20 (1391 / 1431), f1 (weighted): 97.20, loss: 1.51e+00
+time: 0s (wall 1s)
+test  accuracy: 82.47 (814 / 987), f1 (weighted): 82.37, loss: 1.42e+01
+time: 0s (wall 1s)
+NN architecture
+  input: M_0 = 1000
+  layer 1: fc1
+    representation: M_1 = 2500
+    weights: M_0 * M_1 = 1000 * 2500 = 2500000
+    biases: M_1 = 2500
+  layer 2: logits (softmax)
+    representation: M_2 = 3
+    weights: M_1 * M_2 = 2500 * 3 = 7500
+    biases: M_2 = 3
+step 400 / 1144 (epoch 27.95 / 80):
+  learning_rate = 2.50e-02, loss_average = 3.19e-01
+  validation accuracy: 81.86 (808 / 987), f1 (weighted): 81.75, loss: 5.01e-01
+  time: 106s (wall 54s)
+step 800 / 1144 (epoch 55.90 / 80):
+  learning_rate = 5.95e-03, loss_average = 2.73e-01
+  validation accuracy: 83.89 (828 / 987), f1 (weighted): 83.83, loss: 4.78e-01
+  time: 212s (wall 108s)
+step 1144 / 1144 (epoch 79.94 / 80):
+  learning_rate = 1.74e-03, loss_average = 2.63e-01
+  validation accuracy: 83.69 (826 / 987), f1 (weighted): 83.64, loss: 4.75e-01
+  time: 302s (wall 155s)
+validation accuracy: peak = 83.89, mean = 83.15
+train accuracy: 93.50 (1338 / 1431), f1 (weighted): 93.50, loss: 3.02e-01
+time: 1s (wall 1s)
+test  accuracy: 83.69 (826 / 987), f1 (weighted): 83.64, loss: 4.75e-01
+time: 1s (wall 1s)
+NN architecture
+  input: M_0 = 1000
+  layer 1: fc1
+    representation: M_1 = 2500
+    weights: M_0 * M_1 = 1000 * 2500 = 2500000
+    biases: M_1 = 2500
+  layer 2: fc2
+    representation: M_2 = 500
+    weights: M_1 * M_2 = 2500 * 500 = 1250000
+    biases: M_2 = 500
+  layer 3: logits (softmax)
+    representation: M_3 = 3
+    weights: M_2 * M_3 = 500 * 3 = 1500
+    biases: M_3 = 3
+step 400 / 1144 (epoch 27.95 / 80):
+  learning_rate = 2.50e-02, loss_average = 2.29e-01
+  validation accuracy: 74.16 (732 / 987), f1 (weighted): 73.34, loss: 7.12e-01
+  time: 149s (wall 85s)
+step 800 / 1144 (epoch 55.90 / 80):
+  learning_rate = 5.95e-03, loss_average = 1.19e-01
+  validation accuracy: 82.17 (811 / 987), f1 (weighted): 82.09, loss: 5.08e-01
+  time: 300s (wall 164s)
+step 1144 / 1144 (epoch 79.94 / 80):
+  learning_rate = 1.74e-03, loss_average = 1.07e-01
+  validation accuracy: 82.37 (813 / 987), f1 (weighted): 82.26, loss: 5.26e-01
+  time: 429s (wall 232s)
+validation accuracy: peak = 82.37, mean = 79.57
+train accuracy: 97.13 (1390 / 1431), f1 (weighted): 97.14, loss: 1.56e-01
+time: 2s (wall 2s)
+test  accuracy: 82.37 (813 / 987), f1 (weighted): 82.26, loss: 5.26e-01
+time: 2s (wall 2s)
+NN architecture
+  input: M_0 = 1000
+  layer 1: cgconv1
+    representation: M_0 * F_1 / p_1 = 1000 * 32 / 1 = 32000
+    weights: F_0 * F_1 * K_1 = 1 * 32 * 1000 = 32000
+    biases: F_1 = 32
+  layer 2: logits (softmax)
+    representation: M_2 = 3
+    weights: M_1 * M_2 = 32000 * 3 = 96000
+    biases: M_2 = 3
+
+Process finished with exit code -1

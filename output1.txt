@@ -1,0 +1,303 @@
+out0---class Text20News --def init---
+dataset.target={}[2 0 0 ..., 2 0 2]
+
+out01 in class text20News['alt.atheism', 'comp.graphics', 'comp.os.ms-windows.misc']
+
+out--def show_doc in utils--document 1: label 0--> alt.atheism, 112 words
+
+out1--pre-processing
+I'll take a wild guess and say Freedom is objectively valuable.  I base
+this on the assumption that if everyone in the world were deprived utterly
+of their freedom (so that their every act was contrary to their volition),
+almost all would want to complain.  Therefore I take it that to assert or
+believe that "Freedom is not very valuable", when almost everyone can see
+that it is, is every bit as a
+
+out--def show_doc in utils--document 1: label 0--> alt.athe ism, 113 words
+
+out--def show_doc in utils-- 1" absurd" (67)out--def show_doc in utils-- 1" act" (189)out--def show_doc in utils-- 2" assert" (1238)out--def show_doc in utils-- 1" assumption" (1265)out--def show_doc in utils-- 1" base" (1684)out--def show_doc in utils-- 1" believe" (1841)out--def show_doc in utils-- 1" bit" (2073)out--def show_doc in utils-- 1" candidate" (2801)out--def show_doc in utils-- 1" complain" (3795)out--def show_doc in utils-- 1" condition" (3910)out--def show_doc in utils-- 1" contrary" (4090)out--def show_doc in utils-- 1" day" (4780)out--def show_doc in utils-- 1" deprived" (5083)out--def show_doc in utils-- 1" exist" (7021)out--def show_doc in utils-- 3" freedom" (8051)out--def show_doc in utils-- 1" guess" (9048)out--def show_doc in utils-- 1" ll" (13268)out--def show_doc in utils-- 1" morality" (15097)out--def show_doc in utils-- 1" necessary" (15881)out--def show_doc in utils-- 3" objective" (16548)out--def show_doc in utils-- 1" objectively" (16549)out--def show_doc in utils-- 1" raining" (19457)out--def show_doc in utils-- 1" rainy" (19458)out--def show_doc in utils-- 1" say" (21025)out--def show_doc in utils-- 1" utterly" (24802)out--def show_doc in utils-- 2" valuable" (24906)out--def show_doc in utils-- 1" value" (24907)out--def show_doc in utils-- 1" values" (24909)out--def show_doc in utils-- 1" volition" (25351)out--def show_doc in utils-- 1" want" (25614)out--def show_doc in utils-- 1" wild" (25867)out--def show_doc in utils-- 1" world" (26101)out2--analyzing--i ll take a wild guess and say freedom is objectively valuable i base this on the assumption that if everyone in the world were deprived utterly of their freedom so that their every act was contrary to their volition almost all would want to complain therefore i take it that to assert or believe that freedom is not very valuable when almost everyone can see that it is is every bit as absurd as to 
+
+out3--paran=True---N=1655documents,M=27663words,sparsity=0.21814779150834937
+
+out4---i=0--480documents in classalt.atheism
+
+out4---i=1--584documents in classcomp.graphics
+
+out4---i=2--591documents in classcomp.os.ms-windows.misc
+
+out4_1--data_info--Remove short documents.
+
+out3--paran=False---N=1477documents,M=27663words,sparsity=0.2425899238809806
+
+out5--data_info--shortest: 0longest: 24042
+
+out3--paran=False---N=1467documents,M=27663words,sparsity=0.23018055390148165
+
+out5_1--data_info--Remove encoded images
+
+out3--paran=False---N=1467documents,M=5175words,sparsity=0.8780744824134172
+
+out5_2--data_info--Word embedding
+
+out6_0----Feature selection.
+Other options include: mutual information or document count.
+
+out6--def kpTopWords in utils ---most frequent words
+
+out7--i=0: num56546 counts
+
+out7--i=1: dollar5483 counts
+
+out7--i=2: windows742 counts
+
+out7--i=3: don536 counts
+
+out7--i=4: image531 counts
+
+out7--i=5: file519 counts
+
+out7--i=6: cx505 counts
+
+out7--i=7: use503 counts
+
+out7--i=8: like484 counts
+
+out7--i=9: does480 counts
+
+out7--i=10: just472 counts
+
+out7--i=11: know459 counts
+
+out7--i=12: edu448 counts
+
+out7--i=13: graphics435 counts
+
+out7--i=14: files416 counts
+
+out7--i=15: people416 counts
+
+out7--i=16: god412 counts
+
+out7--i=17: think381 counts
+
+out7--i=18: program333 counts
+
+out7--i=19: hz329 counts
+
+out3--paran=False---N=1467documents,M=1000words,sparsity=2.6099522835719156
+
+out6_1--data_info--Feature selection.
+
+out--def show_doc in utils--document 1: label 0--> alt.atheism, 113 words
+
+out--def show_doc in utils-- 1" say" (42)out--def show_doc in utils-- 1" bit" (44)out--def show_doc in utils-- 1" want" (53)out--def show_doc in utils-- 1" believe" (57)out--def show_doc in utils-- 1" ll" (75)out--def show_doc in utils-- 1" world" (136)out--def show_doc in utils-- 1" exist" (179)out--def show_doc in utils-- 1" value" (282)out--def show_doc in utils-- 1" day" (365)out--def show_doc in utils-- 1" values" (506)out--def show_doc in utils-- 1" morality" (539)out--def show_doc in utils-- 1" necessary" (574)out--def show_doc in utils-- 3" objective" (627)out--def show_doc in utils-- 1" guess" (756)out8--data_info--Remove documents whose signal would be the zero vector.
+
+out3--paran=True---N=1431documents,M=1000words,sparsity=2.66743535988819
+
+out4---i=0--404documents in classalt.atheism
+
+out4---i=1--517documents in classcomp.graphics
+
+out4---i=2--510documents in classcomp.os.ms-windows.misc
+
+out9--normalizeout--def show_doc in utils--document 1: label 0--> alt.atheism, 113 words
+
+out--def show_doc in utils-- 0.0625" say" (42)out--def show_doc in utils-- 0.0625" bit" (44)out--def show_doc in utils-- 0.0625" want" (53)out--def show_doc in utils-- 0.0625" believe" (57)out--def show_doc in utils-- 0.0625" ll" (75)out--def show_doc in utils-- 0.0625" world" (136)out--def show_doc in utils-- 0.0625" exist" (179)out--def show_doc in utils-- 0.0625" value" (282)out--def show_doc in utils-- 0.0625" day" (365)out--def show_doc in utils-- 0.0625" values" (506)out--def show_doc in utils-- 0.0625" morality" (539)out--def show_doc in utils-- 0.0625" necessary" (574)out--def show_doc in utils-- 0.1875" objective" (627)out--def show_doc in utils-- 0.0625" guess" (756)out10--test dataset out0---class Text20News --def init---
+dataset.target={}[0 1 1 ..., 0 1 1]
+
+out01 in class text20News['alt.atheism', 'comp.graphics', 'comp.os.ms-windows.misc']
+
+out3--paran=False---N=1102documents,M=1000words,sparsity=2.6346642468239567
+
+out10_1--data_info--Test dataset..
+
+out11--data_info--shortest: 0longest: 26102
+
+out3--paran=True---N=987documents,M=1000words,sparsity=2.918338399189463
+
+out4---i=0--273documents in classalt.atheism
+
+out4---i=1--358documents in classcomp.graphics
+
+out4---i=2--356documents in classcomp.os.ms-windows.misc
+
+out12--if true :
+ train_data=  (0, 0)	0.288889
+  (0, 3)	0.0222222
+  (0, 7)	0.0222222
+  (0, 8)	0.0222222
+  (0, 11)	0.0222222
+  (0, 19)	0.0444444
+  (0, 21)	0.0222222
+  (0, 23)	0.0222222
+  (0, 26)	0.0222222
+  (0, 27)	0.0222222
+  (0, 31)	0.0222222
+  (0, 44)	0.0444444
+  (0, 122)	0.0222222
+  (0, 146)	0.0444444
+  (0, 153)	0.0222222
+  (0, 155)	0.0666667
+  (0, 174)	0.0222222
+  (0, 184)	0.0222222
+  (0, 329)	0.0222222
+  (0, 353)	0.0222222
+  (0, 462)	0.0222222
+  (0, 481)	0.0222222
+  (0, 492)	0.0222222
+  (0, 651)	0.0222222
+  (0, 663)	0.0222222
+  :	:
+  (1429, 599)	0.0294118
+  (1429, 843)	0.0294118
+  (1429, 888)	0.0294118
+  (1429, 892)	0.0294118
+  (1429, 896)	0.0294118
+  (1429, 919)	0.0294118
+  (1430, 0)	0.172414
+  (1430, 2)	0.0344828
+  (1430, 9)	0.0344828
+  (1430, 20)	0.0344828
+  (1430, 23)	0.103448
+  (1430, 35)	0.0344828
+  (1430, 102)	0.0344828
+  (1430, 109)	0.0344828
+  (1430, 127)	0.0344828
+  (1430, 194)	0.0344828
+  (1430, 230)	0.0689655
+  (1430, 303)	0.0344828
+  (1430, 335)	0.0344828
+  (1430, 340)	0.0344828
+  (1430, 455)	0.0344828
+  (1430, 601)	0.0344828
+  (1430, 723)	0.0344828
+  (1430, 834)	0.137931
+  (1430, 995)	0.0344828
+test_data=  (0, 0)	0.0333333
+  (0, 12)	0.0333333
+  (0, 17)	0.0333333
+  (0, 21)	0.0333333
+  (0, 74)	0.0333333
+  (0, 104)	0.1
+  (0, 105)	0.0333333
+  (0, 126)	0.0333333
+  (0, 145)	0.0333333
+  (0, 225)	0.0666667
+  (0, 251)	0.0333333
+  (0, 268)	0.0333333
+  (0, 319)	0.0666667
+  (0, 357)	0.0333333
+  (0, 360)	0.0333333
+  (0, 367)	0.0333333
+  (0, 391)	0.0333333
+  (0, 507)	0.0333333
+  (0, 539)	0.0333333
+  (0, 614)	0.0333333
+  (0, 658)	0.0333333
+  (0, 666)	0.0333333
+  (0, 676)	0.0333333
+  (0, 756)	0.0333333
+  (0, 835)	0.0333333
+  :	:
+  (986, 17)	0.0178571
+  (986, 27)	0.0178571
+  (986, 32)	0.0357143
+  (986, 34)	0.0178571
+  (986, 35)	0.0178571
+  (986, 50)	0.0178571
+  (986, 93)	0.0178571
+  (986, 114)	0.0178571
+  (986, 139)	0.0178571
+  (986, 226)	0.0178571
+  (986, 232)	0.0357143
+  (986, 254)	0.0892857
+  (986, 268)	0.0178571
+  (986, 294)	0.0178571
+  (986, 306)	0.0178571
+  (986, 334)	0.0178571
+  (986, 437)	0.0178571
+  (986, 532)	0.0178571
+  (986, 591)	0.0178571
+  (986, 628)	0.0178571
+  (986, 690)	0.0178571
+  (986, 695)	0.0178571
+  (986, 801)	0.0714286
+  (986, 883)	0.0178571
+  (986, 956)	0.0178571
+train_labels[2 0 0 ..., 2 0 2]
+test_labels[0 1 1 0 2 0 0 1 2 1 1 2 2 2 2 2 0 0 1 1 0 1 1 1 2 1 1 2 0 0 2 2 1 0 2 2 0
+ 1 1 2 0 2 0 2 1 1 0 2 2 0 1 2 2 2 1 2 1 2 0 2 1 2 1 2 0 1 1 0 2 2 1 2 2 2
+ 2 0 2 0 1 1 2 1 0 0 1 2 2 1 2 1 0 2 0 2 2 1 2 1 0 2 2 2 1 1 1 1 2 0 0 2 0
+ 1 2 0 1 2 0 0 1 2 0 1 0 1 0 1 1 2 1 1 1 2 2 1 2 1 2 2 0 1 1 0 2 1 0 1 1 1
+ 2 2 1 0 0 2 2 2 1 1 0 1 2 1 1 1 2 1 1 0 0 0 2 0 2 2 2 1 1 0 0 1 1 2 1 1 1
+ 0 2 2 2 1 2 1 2 0 0 0 2 1 0 2 1 2 0 1 1 1 0 1 1 1 2 2 2 1 2 1 2 2 0 1 0 1
+ 1 0 2 2 1 1 1 2 0 1 0 2 2 1 0 1 1 2 1 1 2 2 2 2 1 1 2 0 1 1 2 2 2 2 2 0 0
+ 1 2 0 0 1 1 2 2 0 2 1 0 1 0 1 2 1 2 1 2 2 1 0 0 2 0 1 2 1 2 2 1 2 1 2 1 2
+ 2 1 1 1 0 2 2 1 0 1 0 2 0 0 2 2 0 0 1 1 0 2 1 2 1 2 1 0 2 2 1 1 2 0 0 2 0
+ 0 0 1 2 0 0 0 2 2 0 2 2 1 2 0 2 1 2 1 1 1 1 2 0 0 1 2 2 1 0 0 1 0 1 1 0 0
+ 1 1 0 0 0 2 0 1 2 2 1 1 2 0 1 0 0 1 1 0 1 2 1 0 2 1 0 1 0 0 0 2 2 0 0 0 2
+ 0 2 0 2 0 2 1 1 0 2 1 1 1 2 0 1 1 2 1 0 2 1 1 2 2 2 0 0 0 2 1 2 1 0 1 2 1
+ 2 0 0 2 1 0 2 0 2 0 1 0 0 0 2 1 1 1 1 1 1 1 2 1 2 1 2 2 1 1 2 0 0 1 2 1 1
+ 1 2 2 0 2 1 0 1 0 0 2 2 1 1 2 1 1 1 1 1 2 2 2 2 0 1 2 1 2 2 1 0 2 1 0 1 1
+ 2 2 2 1 2 1 0 2 2 0 1 0 1 1 2 2 1 2 0 0 1 1 0 1 2 0 1 1 1 0 0 2 1 0 0 0 1
+ 2 0 2 0 0 0 0 0 1 0 0 1 2 1 1 1 0 0 1 2 1 1 1 0 2 2 0 1 1 1 0 2 2 1 1 1 2
+ 1 0 0 1 2 2 2 1 1 1 0 0 2 2 2 1 2 1 2 2 0 0 2 1 2 1 2 2 2 1 1 0 2 1 2 2 0
+ 2 2 1 2 2 0 1 2 2 0 2 1 1 2 2 0 1 0 1 0 2 2 2 2 1 2 1 2 2 2 0 2 1 2 2 0 2
+ 2 1 1 1 1 1 0 1 2 0 0 0 1 0 2 0 1 0 1 0 0 1 2 1 2 2 1 0 0 2 1 0 2 1 2 1 1
+ 1 2 2 2 1 1 0 1 0 2 0 1 2 2 1 0 0 2 1 1 0 1 1 1 2 0 2 2 1 0 2 1 1 0 0 0 0
+ 2 2 1 2 2 1 0 2 0 0 1 2 2 0 2 1 1 0 1 0 0 0 1 2 2 1 1 1 1 0 2 2 0 1 0 0 1
+ 1 2 2 1 2 1 1 1 1 0 1 2 1 2 1 0 2 1 0 0 1 1 0 1 0 0 1 2 1 2 2 1 1 0 1 0 0
+ 2 2 2 1 0 2 2 2 0 2 1 1 2 1 0 1 2 1 2 1 1 2 0 2 0 0 2 2 2 0 2 1 0 1 0 2 1
+ 1 1 2 0 1 2 1 0 2 2 0 1 2 1 1 1 2 0 2 0 1 1 1 2 2 0 1 2 0 2 2 2 1 1 0 1 0
+ 0 1 2 2 2 2 2 0 1 1 2 2 0 2 0 2 0 2 1 2 2 2 1 0 0 0 1 1 0 0 0 2 2 2 0 2 2
+ 0 1 2 1 1 1 0 1 2 0 2 1 1 2 1 2 2 2 1 2 2 2 1 2 1 2 1 1 2 0 0 0 2 2 2 0 0
+ 0 0 2 0 2 2 0 0 2 1 1 0 0 1 2 2 1 0 0 2 2 2 0 1 1]
+
+out13--graph_data=[[ 0.51278955  0.34857613  0.08477043 ..., -0.90863585 -0.74636167
+   0.69856638]
+ [ 0.29747286  1.10432863 -0.35092124 ..., -1.48751175 -1.1946851
+   1.48243678]
+ [ 0.11559623 -0.49491158  0.48649868 ...,  0.04557835 -0.21993496
+   0.4006497 ]
+ ..., 
+ [ 0.01413835 -0.17926343  0.0982021  ...,  0.03077334 -0.01414791
+   0.09468848]
+ [ 0.09518147  0.22790319 -0.0687143  ..., -0.15426713 -0.15579478
+   0.21751444]
+ [ 0.09930986  0.09933018  0.01088623 ..., -0.14923146 -0.17363398
+   0.27322575]]
+
+out14--!!!!coarsening
+out15--dist=[[ 0.04132193  0.04248339  0.04347843 ...,  0.05167675  0.05222148
+   0.05241197]
+ [ 0.01550603  0.01783597  0.02063435 ...,  0.02721393  0.02764702
+   0.02793962]
+ [ 0.03767389  0.08799267  0.09430927 ...,  0.14165717  0.14241016
+   0.14477921]
+ ..., 
+ [ 0.00328809  0.003492    0.00377816 ...,  0.005597    0.00560862
+   0.00569707]
+ [ 0.00217086  0.00487614  0.00571489 ...,  0.01321274  0.01324892
+   0.01396525]
+ [ 0.00303984  0.00362217  0.00386655 ...,  0.01012063  0.01025283
+   0.01141644]]idx=[[456 273 399 ..., 876 366 642]
+ [205 849 549 ..., 878 605 373]
+ [ 30  44   5 ..., 135  59  20]
+ ..., 
+ [389 514 833 ..., 629 991 293]
+ [338 543 400 ..., 114 577 622]
+ [901 656 583 ..., 370 736 473]]
+out16--11231> 8000
+out17--replace_random_edges(A, 0)
+
+out18--!!!!real coarsening
+graphs=[<1000x1000 sparse matrix of type '<class 'numpy.float32'>'
+	with 22462 stored elements in Compressed Sparse Row format>]
+perm=None
+
+out19--Return the Laplacian of the weigth matrix.
+L= [<1000x1000 sparse matrix of type '<class 'numpy.float32'>'
+	with 23462 stored elements in Compressed Sparse Row format>]
+
+out20--Execution time:0.25
+
