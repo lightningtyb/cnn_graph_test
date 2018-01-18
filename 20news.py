@@ -9,6 +9,7 @@
 
 import sys, os
 sys.path.insert(0, '..')
+os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 # from lib import models, graph, coarsening, utils
 import models,graph,coarsening,utils
 import tensorflow as tf
